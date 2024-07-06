@@ -6,19 +6,19 @@ function Navigation({ step, setStep }) {
       <button
         className={step === 1 ? "tab active" : "tab"}
         onClick={() => setStep(1)}>
-        Personal Info ⮞
+        Personal Info
       </button>
       <button
         className={step === 2 ? "tab active" : "tab"}
         onClick={() => setStep(2)}
         disabled={step < 2}>
-        Address ⮞
+        Address
       </button>
       <button
         className={step === 3 ? "tab active" : "tab"}
         onClick={() => setStep(3)}
         disabled={step < 3}>
-        Confirmation ⮞
+        Confirmation
       </button>
     </div>
   );
